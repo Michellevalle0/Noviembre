@@ -12,6 +12,10 @@ namespace Noviembre.coree.Entidades
         public DateTime Fecha { get; set; }
         public Modulo Modulo { get; set; }
         public Ciudadano Ciudadano { get; set; }
+        public DocumentoNacionalidad DocumentoNacionalidad { get; set; }
+        public ComprobanteDomicilio ComprobanteDomicilio { get; set; }
+
+
 
 
     }
